@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AratNa - Love the Philippines</title>
+    <meta name="description" content="Discover the beautiful destinations of the Philippines with AratNa travel services">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" role="banner">
+        <div class="container header-inner">
+            <a href="#" class="logo" aria-label="AratNa Home">
+                <span class="logo-mark" aria-hidden="true">🚌</span>
+                <span class="logo-text">AratNa</span>
+            </a>
+            <nav class="site-nav" aria-label="Primary">
+                <ul class="nav-list">
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#destinations">Destinations</a></li>
+                    <li><a href="#hotels">Hotels</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-cta">
+                <a class="btn btn--secondary" href="#destinations">Search Destinations</a>
+                <a class="btn btn--primary" href="#booking">Book Now</a>
+            </div>
+        </div>
+    </header>
+
+    <main id="main">
+        <section class="section hero" id="hero" aria-label="Hero">
+            <div class="hero-background">
+                <img src="assets/images/philippines-beach.jpg" alt="Beautiful Philippines beach with turquoise water and limestone karsts" class="hero-bg-image">
+            </div>
+            <div class="container hero-inner">
+                <div class="hero-content">
+                    <h1 class="hero-title">
+                        <span class="love-text">
+                            <span class="letter-l">L</span>
+                            <span class="letter-o">O</span>
+                            <span class="letter-v">V</span>
+                            <span class="letter-e">E</span>
+                        </span>
+                        <span class="philippines-text">THE PHILIPPINES</span>
+                    </h1>
+                    <form class="hero-form" action="#" method="post" novalidate>
+                        <div class="form-group">
+                            <label class="visually-hidden" for="destination">Where are you going?</label>
+                            <span class="form-icon">🧳</span>
+                            <input id="destination" type="text" placeholder="Where are you going?" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="visually-hidden" for="checkin">Check-in date</label>
+                            <span class="form-icon">📅</span>
+                            <input id="checkin" type="date" placeholder="Check-in date" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="visually-hidden" for="guests">Guests and rooms</label>
+                            <span class="form-icon">👥</span>
+                            <select id="guests" required>
+                                <option value="2-adults-0-children-1-room">2 adults - 0 children - 1 room</option>
+                                <option value="1-adult-0-children-1-room">1 adult - 0 children - 1 room</option>
+                                <option value="2-adults-1-child-1-room">2 adults - 1 child - 1 room</option>
+                                <option value="2-adults-2-children-1-room">2 adults - 2 children - 1 room</option>
+                            </select>
+                        </div>
+                        <button class="btn btn--primary btn--search" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="section destinations" id="destinations" aria-label="Destinations">
+            <div class="container">
+                <div class="section-head">
+                    <h2 class="section-title">Destinations</h2>
+                </div>
+                <div class="destinations-grid">
+                    <article class="destination-card baguio">
+                        <div class="destination-content">
+                            <h3 class="destination-title">BAGUIO</h3>
+                            <div class="destination-images">
+                                <img src="assets/images/baguio-cityscape.jpg" alt="Baguio cityscape" class="dest-img">
+                                <img src="assets/images/baguio-lion.jpg" alt="Baguio lion statue" class="dest-img">
+                                <img src="assets/images/baguio-market.jpg" alt="Baguio market" class="dest-img">
+                            </div>
+                        </div>
+                    </article>
+                    <article class="destination-card coron">
+                        <div class="destination-content">
+                            <h3 class="destination-title">CORON</h3>
+                            <p class="destination-subtitle">PALAWAN GUISSI</p>
+                            <img src="assets/images/coron-limestone.jpg" alt="Coron limestone islands" class="dest-main-img">
+                        </div>
+                    </article>
+                    <article class="destination-card bohol">
+                        <div class="destination-content">
+                            <p class="destination-subtitle">YOUR TOURIST TRAVEL GOALS</p>
+                            <h3 class="destination-title">BOHOL</h3>
+                            <img src="assets/images/bohol-chocolate-hills.jpg" alt="Bohol Chocolate Hills" class="dest-main-img">
+                        </div>
+                    </article>
+                    <article class="destination-card boracay">
+                        <div class="destination-content">
+                            <p class="destination-subtitle">BEST PLACES TO VISIT IN</p>
+                            <h3 class="destination-title">BORACAY</h3>
+                            <img src="assets/images/boracay-beach.jpg" alt="Boracay beach with sailboat" class="dest-main-img">
+                        </div>
+                    </article>
+                    <article class="destination-card placeholder">
+                        <div class="destination-content">
+                            <div class="placeholder-content">More destinations coming soon</div>
+                        </div>
+                    </article>
+                    <article class="destination-card placeholder">
+                        <div class="destination-content">
+                            <div class="placeholder-content">More destinations coming soon</div>
+                        </div>
+                    </article>
+                    <article class="destination-card placeholder">
+                        <div class="destination-content">
+                            <div class="placeholder-content">More destinations coming soon</div>
+                        </div>
+                    </article>
+                    <article class="destination-card placeholder">
+                        <div class="destination-content">
+                            <div class="placeholder-content">More destinations coming soon</div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer" role="contentinfo">
+        <div class="container footer-inner">
+            <div class="footer-brand">
+                <a href="#" class="logo" aria-label="AratNa Home">
+                    <span class="logo-mark" aria-hidden="true">🚌</span>
+                    <span class="logo-text">AratNa</span>
+                </a>
+                <p class="footer-copy">© <span id="year"></span> AratNa. All rights reserved.</p>
+            </div>
+            <nav class="footer-nav" aria-label="Footer">
+                <ul class="nav-list">
+                    <li><a href="#privacy">Privacy Policy</a></li>
+                    <li><a href="#terms">Terms of Service</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
